@@ -1,0 +1,199 @@
+.contenedor-proyectos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem 10.5rem;
+  gap: 4rem;
+}
+
+.titulo-proyectos {
+  padding: 1rem 2rem;
+  border: 4px groove white;
+}
+
+.titulo-proyectos h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.proyectos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.ul-proyectos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.proyecto {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 2rem;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.columna-izq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  gap: 1rem;
+}
+
+.img-proyecto {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+}
+
+.etiquetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.work-skills {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.skill-icons {
+  width: 18px;
+  margin-right: 5px;
+}
+
+.columna-der {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info {
+  margin-bottom: 1rem;
+  color: white;
+}
+
+#info-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#info-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-height: 10rem;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: white transparent;
+}
+
+.links-proyecto {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.link-proyecto {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: 0.3s ease;
+}
+
+.link-proyecto:hover {
+  transform: scale(1.05);
+}
+
+#ver-proyecto {
+  padding: 0.5rem 1.2rem;
+  border: 3px groove white;
+  transition: 0.3s;
+}
+
+#ver-proyecto:hover {
+  border-color: #b415ff;
+}
+
+.link-github {
+  width: 2.2rem;
+}
+
+
+/* 📱 Responsive para pantallas chicas */
+@media (max-width: 768px) {
+  .proyecto {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .columna-izq {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .img-proyecto {
+    width: 45%;
+    max-width: 180px;
+  }
+
+  .etiquetas {
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .columna-der {
+    margin-top: 2rem;
+  }
+
+  #info-title {
+    font-size: 1.6rem;
+  }
+
+  #info-description {
+    font-size: 1rem;
+    max-height: none;
+    overflow-y: visible;
+  }
+
+  .links-proyecto {
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .link-proyecto {
+    font-size: 1rem;
+  }
+
+  #ver-proyecto {
+    margin-left: 0;
+  }
+
+  .link-github {
+    width: 28px;
+  }
+}

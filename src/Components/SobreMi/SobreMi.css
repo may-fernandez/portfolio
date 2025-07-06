@@ -1,0 +1,88 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin: 5rem 10.5rem;
+}
+
+.titulo_about{
+    position: relative;
+    padding: 1rem 2rem;
+    border: 4px groove white;
+}
+
+.titulo_about h1{
+    padding: 0 1.8rem;
+    font-size: 4.7rem;
+}
+
+.titulo_about img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.about_p{
+    display: flexbox;
+    font-size: 1.5rem;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5rem;
+}
+
+.about_p #p1{
+    margin-bottom: 1rem;
+}
+
+.about_p #p2{
+    margin-bottom: 1rem;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px dotted white;
+    border-radius: 10px;
+    margin: 4rem 0 2rem 0;
+}
+
+.herramientas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px dotted white;
+    border-radius: 10px;
+    padding: 0 2rem 0 2rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.herramientas h2{
+    position: relative;
+    margin-left: 5px;
+    font-size: 2.4rem;
+}
+
+.skills h2{
+    position: relative;
+    margin-left: 5px;
+    font-size: 2.4rem;
+}
+
+.logo p{
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.skill{
+    margin: 2rem 3rem 1rem 3rem;
+    width: 2rem;
+    height: 4rem;
+}
+
