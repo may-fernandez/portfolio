@@ -64,7 +64,7 @@ const Navbar = () => {
           <li>
             <Link
               activeClass="active"
-              to="test1"
+              to="contacto"
               spy={true}
               smooth={true}
               duration={500}
