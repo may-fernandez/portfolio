@@ -84,14 +84,8 @@
     top: 3px;
     height: auto;
     width: 1.5rem;
-    background-color: white;
-    border-radius: 3.5px;
     margin-top: 0;
     margin-right: .5rem;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
 }
 
 .hero-resume #github{
