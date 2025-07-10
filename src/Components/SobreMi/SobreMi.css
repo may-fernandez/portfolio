@@ -7,14 +7,22 @@
     margin: 5rem 10.5rem;
 }
 
+.seccion_about{
+    background-color: hsla(0, 0%, 1%, 0.4);
+    border-radius: 5px;
+    padding: 1rem 1rem;
+}
+
 .titulo_about{
-    position: relative;
-    padding: 1rem 2rem;
+    background-color: hsl(0, 0%, 10%, 0.2);
+    display: flex;
+    justify-content: center;
     border: 4px groove white;
 }
 
 .titulo_about h1{
     padding: 0 1.8rem;
+    text-align: center;
     font-size: 4.7rem;
 }
 
@@ -27,11 +35,13 @@
 
 .about_p{
     display: flexbox;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 400;
     align-items: center;
     justify-content: center;
     line-height: 1.5rem;
+    color: rgb(255, 255, 255);
+    
 }
 
 .about_p #p1{
@@ -43,34 +53,49 @@
 }
 
 .skills{
-    display: flex;
+   display: flex;
     align-items: center;
-    justify-content: center;
-    border: 4px dotted white;
-    border-radius: 10px;
-    margin: 4rem 0 2rem 0;
+    justify-content: flex-start;
+    gap: 10rem;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 0 2rem 0 2rem;
+    margin: 2rem 0 2rem 0;
 }
 
 .herramientas{
     display: flex;
     align-items: center;
-    justify-content: center;
-    border: 4px dotted white;
-    border-radius: 10px;
+    justify-content: flex-start;
+    gap: 10rem;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
     padding: 0 2rem 0 2rem;
     margin: 2rem 0 2rem 0;
 }
 
 .herramientas h2{
-    position: relative;
-    margin-left: 5px;
+    display: flex;
+    justify-content: flex-start;
     font-size: 2.4rem;
+    width: 15rem;
 }
 
 .skills h2{
-    position: relative;
-    margin-left: 5px;
+    display: flex;
+    justify-content: flex-start;
     font-size: 2.4rem;
+    width: 15rem;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+
 }
 
 .logo p{
@@ -81,8 +106,20 @@
 }
 
 .skill{
-    margin: 2rem 3rem 1rem 3rem;
+   
+    
     width: 2rem;
     height: 4rem;
+}
+
+@media (max-width: 768px){
+    .titulo_about h1{
+        font-size: 3.7rem;
+    }
+
+    .about_p{
+        font-size: 1rem;
+    }
+
 }
 

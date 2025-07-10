@@ -3,7 +3,7 @@
   height: 3rem;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(49, 47, 43);
+  background-color: hsla(0, 0%, 10%, 0.3);
 }
 
 .footer{
@@ -34,7 +34,7 @@
 
 .footer a:hover{
     transform: scale(1.05);
-    color: #9d55be;
+    color: #9845a6;
 }
 
 .footer img {

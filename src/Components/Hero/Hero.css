@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 9rem 0;
     gap: 1.5rem;
 }
 
@@ -20,7 +21,7 @@
 }
 
 .hero h1 span{
-    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background: linear-gradient(270deg, #ff7700 10%, #91009e 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -48,6 +49,8 @@
     border-radius: 20px;
     cursor: pointer;
     transition: 0.5s;
+    
+    
 
     &:hover{
         transform: scale(1.05);
@@ -57,8 +60,8 @@
 .a-hero{
     padding: .8rem 1.5rem;
     font-size: 1.4rem;
-    border: 3.5px groove white;
-    
+    border: 3px groove rgb(255, 255, 255);
+    background-color: hsl(0, 0%, 10%, 0.2);
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -66,7 +69,7 @@
     transition: 0.5s;
 
      &:hover{
-        border-color: #B415FF;
+        border-color: #c800ff;
     }
 }
 
@@ -77,6 +80,7 @@
     height: auto;
     margin-top: 0;
     margin-right: .5rem;
+    
 }
 
 .hero-resume #linkedin{

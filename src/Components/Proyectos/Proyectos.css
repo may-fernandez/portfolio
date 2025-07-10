@@ -9,6 +9,7 @@
 .titulo-proyectos {
   padding: 1rem 2rem;
   border: 4px groove white;
+  background-color: hsl(0, 0%, 0%, 0.2);
 }
 
 .titulo-proyectos h1 {
@@ -33,7 +34,7 @@
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: hsla(0, 0%, 1%, 0.4);
   border-radius: 10px;
   padding: 2rem;
   position: relative;
@@ -131,7 +132,7 @@
 }
 
 #ver-proyecto:hover {
-  border-color: #b415ff;
+  border-color: #c800ff;
 }
 
 .link-github {

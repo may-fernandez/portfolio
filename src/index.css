@@ -9,4 +9,13 @@ body{
     background-color: hsl(40, 7%, 8%);
     color: white;
     font-family: 'outfit';
+    /*
+    background: #c26efa;
+background: linear-gradient(90deg, rgba(194, 110, 250, 1) 0%, rgba(247, 163, 163, 1) 50%, rgba(255, 213, 153, 1) 100%);
+*/
+
+background-image: linear-gradient(to top, #ff9d73 0%, #af71c6 100%);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
 }

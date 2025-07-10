@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../assets/logo.svg";
 import SobreMi from "../SobreMi/SobreMi.jsx";
 import Proyectos from "../Proyectos/Proyectos.jsx";
 import Hero from "../Hero/Hero.jsx";
@@ -9,8 +8,6 @@ import { Link, Element } from "react-scroll";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <img src={logo} alt="Logo" />
-
       <nav>
         <ul className="nav-menu">
           <li>
@@ -74,8 +71,6 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-
-      <div className="nav-connect">Contactame</div>
     </div>
   );
 };
