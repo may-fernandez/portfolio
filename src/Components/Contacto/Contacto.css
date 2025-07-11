@@ -6,7 +6,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;   
-   
 }
 
 .titulo h1{
@@ -16,6 +15,7 @@
     font-size: 4rem;
     padding: 1rem 3rem;
     border: 4px groove white;
+    background-color: hsl(0, 0%, 10%, 0.2);
 }
 
 

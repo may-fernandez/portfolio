@@ -21,8 +21,10 @@ const SobreMi = () => {
                         <p>Actualmente estoy estudiando una Tecnicatura en desarrollo web en la Universidad Nacional de la Matanza (Buenos Aires, Argentina) para mejorar mis habilidades como programadora.</p>
                     </div>
 
-                    <div className="skills">
-                        <h2>Skills</h2>
+                    <div className="herramientas">
+                        <div className='titulo-herramientas'>
+                            <h2>Skills</h2>
+                        </div>
 
                         <div className="logo">
                             {skills_data.map((skill, index) => {
@@ -32,7 +34,10 @@ const SobreMi = () => {
                     </div>
 
                     <div className="herramientas">
-                        <h2>Herramientas</h2>
+                        <div className="titulo-herramientas">
+                            <h2>Herramientas</h2>
+                        </div>
+                       
 
                         <div className="logo">
                             {tools_data.map((tool, index) => {

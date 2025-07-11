@@ -52,16 +52,6 @@
     margin-bottom: 1rem;
 }
 
-.skills{
-   display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10rem;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
-    padding: 0 2rem 0 2rem;
-    margin: 2rem 0 2rem 0;
-}
 
 .herramientas{
     display: flex;
@@ -75,18 +65,16 @@
 }
 
 .herramientas h2{
-    display: flex;
-    justify-content: flex-start;
     font-size: 2.4rem;
+}
+
+.titulo-herramientas{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     width: 15rem;
 }
 
-.skills h2{
-    display: flex;
-    justify-content: flex-start;
-    font-size: 2.4rem;
-    width: 15rem;
-}
 
 .logo{
     display: flex;
@@ -118,7 +106,25 @@
     }
 
     .about_p{
-        font-size: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .skill{
+        width: 1.3rem;
+        height: 3rem;
+    }
+
+    .logo{
+        flex-wrap: nowrap;
+        gap: 1rem;
+    }
+
+    .herramientas{
+        gap: 8rem;
+    }
+
+    .herramientas h2{
+        font-size: 1.5rem;
     }
 
 }
