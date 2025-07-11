@@ -11,10 +11,10 @@ const Proyectos = () => {
         <h1>Proyectos</h1>
       </div>
       <div className="proyectos">
-        {mywork_data.map((work, index) => {
+        {mywork_data.map((work) => {
           return (
-            <ul className="ul-proyectos" key={work.w_no}>
-              <li className="proyecto">
+            <div className="div-proyectos" key={work.w_no}>
+              <div className="proyecto">
                 <div className="columna-izq">
                   <img src={work.w_img} alt="" className="img-proyecto" />
 
@@ -44,11 +44,12 @@ const Proyectos = () => {
                     <a
                       href={work.w_link_github}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="link-proyecto"
                       title="Ver código"
                     >
                       <img
-                        key={index}
+                        key={work.w_no}
                         src={logo_github}
                         alt=""
                         className="link-github"
@@ -57,6 +58,7 @@ const Proyectos = () => {
                     <a
                       href={work.w_link_verProyecto}
                       target="_blank"
+                      rel="noopener noreferrer"
                       id="ver-proyecto"
                       className="link-proyecto"
                     >
@@ -64,8 +66,8 @@ const Proyectos = () => {
                     </a>
                   </div>
                 </div>
-              </li>
-            </ul>
+              </div>
+            </div>
           );
         })}
       </div>

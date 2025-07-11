@@ -101,7 +101,26 @@
     margin-right: .5rem;
 }
 
+@media (max-width: 768px) {
+    .hero{
+        margin: 5rem 0;
+    }
+    .hero h1{
+        font-size: 4rem;
+    }
 
+    .hero p{
+        font-size: 1.6rem;
+    }
+
+    .hero .hero-action{
+        gap: 1rem;
+    }
+
+    .hero .hero-action a{
+        font-size: 1.3rem;
+    }
+}
 
 
 

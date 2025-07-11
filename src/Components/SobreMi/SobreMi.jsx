@@ -28,7 +28,7 @@ const SobreMi = () => {
 
                         <div className="logo">
                             {skills_data.map((skill, index) => {
-                                return <img Key= {index} src= {skill.s_img} className='skill'/>
+                                return <img key= {index} src= {skill.s_img} alt={skill.name || "skill"} className='skill'/>
                             })}
                         </div>
                     </div>
@@ -41,7 +41,7 @@ const SobreMi = () => {
 
                         <div className="logo">
                             {tools_data.map((tool, index) => {
-                                return <img key= {index} src={tool.t_img} alt="" className='skill'/>
+                                return <img key= {index} src={tool.t_img} alt={tool.name || "tool"} className='skill'/>
                             })}
                         </div>
                     </div>
