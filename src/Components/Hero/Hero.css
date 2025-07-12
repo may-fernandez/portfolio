@@ -148,7 +148,33 @@
         width: 1.2rem;
         height: auto;
     }
+}
 
+@media (max-width: 360px){
+    .hero{
+        margin: 2rem 0;
+    }
+    .hero h1{
+        font-size: 2.5rem;
+    }
+
+    .hero p{
+        line-height: 1.3rem;
+        font-size: 1.15rem;
+    }
+
+    .hero .hero-action{
+        gap: 0.3rem;
+    }
+
+    .a-hero{
+        padding: 0.1rem 0.5rem;
+        font-size: 0.5rem;
+    }
+    
+    .a-hero img{
+        display: none;
+    }
 }
 
 
