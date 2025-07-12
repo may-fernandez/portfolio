@@ -3,6 +3,7 @@
   height: 3rem;
   display: flex;
   justify-content: space-between;
+  align-self: flex-end;
   background-color: hsla(0, 0%, 10%, 0.3);
 }
 
@@ -86,6 +87,20 @@
 
   .footer img{
     width: 0.7rem;
+  }
+}
+
+@media (max-width: 400px){
+   .footer a{
+    font-size: 0.6rem;
+  }
+
+  .footer p{
+    font-size: 0.6rem;
+  }
+
+  .footer img{
+    width: 0.6rem;
   }
 }
 
