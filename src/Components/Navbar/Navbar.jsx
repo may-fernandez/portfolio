@@ -1,15 +1,28 @@
-import React from "react";
+import {React, useState} from "react";
 import "./Navbar.css";
 import SobreMi from "../SobreMi/SobreMi.jsx";
 import Proyectos from "../Proyectos/Proyectos.jsx";
 import Hero from "../Hero/Hero.jsx";
+
 import { Link, Element } from "react-scroll";
 
 const Navbar = () => {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    setMenuOpen(false); // Cierra el menu al hacer click en un link
+  }
+
   return (
     <div className="navbar">
+      <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+        <span className={menuOpen ? "bar open" : "bar"}></span>
+        <span className={menuOpen ? "bar open" : "bar"}></span>
+        <span className={menuOpen ? "bar open" : "bar"}></span>
+      </div>
       <nav>
-        <ul className="nav-menu">
+        <ul className={`nav-menu ${menuOpen ? "open" : ""}`}>
           <li>
             <Link
               activeClass="active"
@@ -17,6 +30,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
+              onClick={handleLinkClick}
             >
               Perfil
             </Link>
@@ -29,6 +43,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
+              onClick={handleLinkClick}
             >
               Sobre mi
             </Link>
@@ -41,6 +56,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
+              onClick={handleLinkClick}
             >
               Servicios
             </Link>
@@ -53,6 +69,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
+              onClick={handleLinkClick}
             >
               Portfolio
             </Link>
@@ -65,6 +82,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
+              onClick={handleLinkClick}
             >
               Contacto
             </Link>

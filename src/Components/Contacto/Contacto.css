@@ -86,3 +86,18 @@
     font-size: 1rem;
 }
 }
+
+@media (max-width: 600px){
+  .titulo h1{
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 480px){
+
+  .titulo h1{
+    padding: 0.8rem 0.8rem;
+    font-size: 2.4rem;
+    text-align: center;
+  }
+}
