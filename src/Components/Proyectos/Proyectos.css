@@ -74,6 +74,8 @@
 
 .skill-icons {
   width: 18px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
   margin-right: 5px;
 }
 

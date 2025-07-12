@@ -96,10 +96,10 @@
 }
 
 .skill{
-   
-    
     width: 2rem;
-    height: 4rem;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    margin: 1rem 0;
 }
 
 @media (max-width: 768px){
@@ -119,7 +119,8 @@
 
     .skill{
         width: 1.3rem;
-        height: 3rem;
+        aspect-ratio: 1/1;
+        object-fit: contain;
     }
 
     .logo{
@@ -178,7 +179,9 @@
 
     .skill{
         width: 1.5rem;
-        height: 3rem;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+        margin: 0;
     }
 }
 
@@ -200,7 +203,9 @@
 
     .skill{
         width: 1.5rem;
-        height: 3rem;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+        margin: 0;
     }
 
     .logo{
