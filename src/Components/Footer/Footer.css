@@ -51,6 +51,7 @@
   width: 1rem;
   aspect-ratio: 1/1;
   object-fit: contain;
+  color: white;
 }
 
 .footer .location{

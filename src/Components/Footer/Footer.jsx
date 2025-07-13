@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import mail from "../../assets/mail_icon.svg";
-import call_icon from "../../assets/call_icon.svg";
+import logo_wpp from "../../assets/logo_wpp.svg";
 import location_icon from "../../assets/location_icon.svg";
 
 function Footer() {
@@ -13,13 +13,13 @@ function Footer() {
           <p>Buenos Aires, Argentina</p>
         </div>
 
-        <a href="mailto:mayra.bf3@gmail.com" target="_blank">
+        <a href="mailto:mayra.bf3@gmail.com" rel="noopener noreferrer" target="_blank">
           <img src={mail} />
           mayra.bf3@gmail.com
         </a>
 
-        <a href="">
-          <img src={call_icon} />
+        <a href="https://wa.me/5491157210065" rel="noopener noreferrer">
+          <img src={logo_wpp} />
           +54 9 11 5721-0065
         </a>
       </footer>

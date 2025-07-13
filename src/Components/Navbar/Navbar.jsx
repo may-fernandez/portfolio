@@ -1,9 +1,5 @@
 import {React, useState} from "react";
 import "./Navbar.css";
-import SobreMi from "../SobreMi/SobreMi.jsx";
-import Proyectos from "../Proyectos/Proyectos.jsx";
-import Hero from "../Hero/Hero.jsx";
-
 import { Link, Element } from "react-scroll";
 
 const Navbar = () => {
@@ -30,6 +26,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
+              offset={-150}
               onClick={handleLinkClick}
             >
               Perfil
@@ -43,22 +40,10 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
+              offset={-50}
               onClick={handleLinkClick}
             >
               Sobre mi
-            </Link>
-          </li>
-
-          <li>
-            <Link
-              activeClass="active"
-              to=""
-              spy={true}
-              smooth={true}
-              duration={500}
-              onClick={handleLinkClick}
-            >
-              Servicios
             </Link>
           </li>
 
@@ -69,6 +54,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
+              offset={-200}
               onClick={handleLinkClick}
             >
               Portfolio
@@ -82,6 +68,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
+              offset={-150}
               onClick={handleLinkClick}
             >
               Contacto
