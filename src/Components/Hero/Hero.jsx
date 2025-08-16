@@ -9,9 +9,9 @@ const Hero = () => {
     <div className="hero">
       
       <h1>
-        <span>Mayra Fernández,</span> desarrolladora frontend.
+        <span>Mayra Fernández,</span> desarrolladora web.
       </h1>
-      <p>Enfocada en programación web y diseño UX.</p>
+      <p>Enfocada en programación full-stack y diseño UX.</p>
       <div className="hero-action">
         <div className="hero-resume">
           <a href="mailto:mayra.bf3@gmail.com" target="_blank" rel="noopener noreferrer"  className="a-hero">
