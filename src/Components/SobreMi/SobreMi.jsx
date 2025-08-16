@@ -16,7 +16,7 @@ const SobreMi = () => {
             <div className="seccion_about">
                 <div className="about_centro">
                     <div className="about_p">
-                        <p id='p1'>Especializada en el desarrollo web, con un fuerte interés por crear experiencias digitales atractivas, funcionales y centradas en el usuario.</p>
+                        <p id='p1'>Especializada en el desarrollo web, con un fuerte interés por crear experiencias digitales atractivas, funcionales y centradas en el usuario, así como aplicaciones robustas, eficientes y escalables.</p>
                         <p id='p2'>Me gusta trabajar en equipo, compartir ideas y aprender de otros. Busco colaborar en proyectos con buena comunicación y mucha creatividad.</p>
                         <p>Actualmente estoy estudiando una Tecnicatura en desarrollo web en la Universidad Nacional de la Matanza (Buenos Aires, Argentina) para mejorar mis habilidades como programadora.</p>
                     </div>
