@@ -3,7 +3,7 @@ import "./Hero.css";
 import linkedin_logo from "../../assets/linkedin_logo.svg";
 import logo_github from '../../assets/logo_github.svg'
 import gmail_logo from "../../assets/gmail_logo.svg";
-
+import cv_pdf from '../../assets/Mayra-Fernandez_CV.pdf';
 const Hero = () => {
   return (
     <div className="hero">
@@ -31,6 +31,12 @@ const Hero = () => {
           <a href="https://github.com/may-fernandez" target="_blank" rel="noopener noreferrer" className="a-hero">
             <img src={logo_github} alt="logo github" id="github" />
             Github
+          </a>
+        </div>
+
+        <div className="hero-resume">
+          <a href={cv_pdf} target="_blank" rel="noopener noreferrer" className="a-hero">
+            Curriculum Vitae
           </a>
         </div>
       </div>
