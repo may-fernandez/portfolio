@@ -1,5 +1,5 @@
 import project1_img from '../assets/sos_drinks.svg';
-import project2_img from '../assets/weather_app.svg';
+import project2_img from '../assets/EduMatanza.svg';
 import cssSkill from '../assets/logo_css.svg';
 import reactSkill from '../assets/logo_React.svg';
 import htmlSkill from '../assets/logo_html5.svg';
@@ -37,11 +37,11 @@ const mywork_data = [
     },
     {
         w_no:2,
-        w_name:"Weather App",
-        w_descripcion: "Aplicación del clima que permite al usuario consultar el estado del tiempo actual de cualquier ciudad ingresada, utilizando la API de OpenWeatherMap. Muestra información como la temperatura, humedad, sensación térmica y condiciones climáticas generales de forma clara y visual.",
+        w_name:"EduMatanza",
+        w_descripcion: "Proyecto universitario grupal de desarrollo web para una plataforma de cursos online y presenciales. Incluye páginas clave como inicio con buscador y cursos destacados, detalle de curso, calendario de cursos, personalización de Gift Cards, formulario de inscripción para empresas y página de contacto.",
         w_img:project2_img,
-        w_link_github:"https://github.com/may-fernandez/app-clima-js",
-        w_link_verProyecto:"https://may-fernandez.github.io/app-clima-js/",
+        w_link_github:"https://github.com/Lau-Retta/tp1-programacion-web_1-GrupoP",
+        w_link_verProyecto:"https://github.com/Lau-Retta/tp1-programacion-web_1-GrupoP",
         w_skills: {
             html: {
                 icon: htmlSkill,
