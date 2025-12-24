@@ -4,7 +4,6 @@ import logo_javascript from '../assets/logo_javascript.svg'
 import logo_React from '../assets/logo_react.svg'
 import logo_java from '../assets/logo_java.svg'
 import logo_mysql from '../assets/logo_mysql.svg';
-import logo_sqlite from '../assets/logo_sqlite.svg';
 
 
 const skills_data = [
@@ -43,12 +42,6 @@ const skills_data = [
         s_name: "MySQL",
         s_img: logo_mysql
     },
-
-    {
-        s_no: 7,
-        s_name: "SQLite",
-        s_img: logo_sqlite
-    }
 ]
 
 export default skills_data;
